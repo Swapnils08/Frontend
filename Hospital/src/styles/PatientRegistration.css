@@ -1,0 +1,75 @@
+/* Container */
+.patient-form-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #ffffff; /* Clean white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    text-align: center;
+    border: 2px solid #0077b6; /* Elegant blue border */
+  }
+  
+  /* Heading */
+  h2 {
+    color: #023e8a; /* Deep blue for a professional look */
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  /* Input Field Group */
+  .input-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #005f73; /* Muted teal for readability */
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Input Fields */
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #8ecae6; /* Soft blue border */
+    border-radius: 5px;
+    background: #f1f5f9; /* Light grayish-blue background */
+    transition: border 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #0077b6; /* Slightly darker blue on focus */
+    outline: none;
+    background: #e3f2fd; /* Subtle background change on focus */
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #d90429; /* Vibrant red for errors */
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background: #0077b6; /* Rich blue for a premium feel */
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+  }
+  
+  .submit-btn:hover {
+    background: #023e8a; /* Darker shade of blue on hover */
+  }
+  

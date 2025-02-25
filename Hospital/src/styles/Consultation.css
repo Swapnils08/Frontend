@@ -1,0 +1,68 @@
+.consultation-form-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .consultation-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .consultation-form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .consultation-form-container input,
+  .consultation-form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .consultation-form-container textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .consultation-form-container input:focus,
+  .consultation-form-container textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .consultation-form-container .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .consultation-form-container button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .consultation-form-container button:hover {
+    background: #0056b3;
+  }
+  

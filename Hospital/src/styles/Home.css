@@ -1,0 +1,158 @@
+/* .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.welcome-message {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.animation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animated-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+    transition: transform 0.3s;
+    animation: bounceIn 0.5s ease-in-out forwards;
+}
+
+.animated-box:hover {
+    transform: scale(1.1);
+}
+
+/* Animations 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+} */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #0047AB, #34495e); /* Cobalt Blue gradient */
+    color: #cecbbf; /* Soft, warm yellow for the text */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Welcome Title with transition effect */
+.welcome-title {
+    font-size: 3.5rem; /* Bigger title for more impact */
+    margin-bottom: 30px;
+    transition: transform 0.3s ease; /* Removed color transition */
+    font-weight: bold;
+}
+
+.welcome-title:hover {
+    transform: scale(1.1); /* Slightly scale up the title on hover */
+    /* No color change on hover */
+}
+
+/* Welcome Message with transition effect */
+.welcome-message {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease; /* Removed color transition */
+    font-weight: lighter;
+}
+
+.welcome-message:hover {
+    transform: scale(1.05); /* Slightly scale up the message on hover */
+    /* No color change on hover */
+}
+
+/* Animation container with more color transitions */
+.animation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Added gap for better spacing */
+}
+
+/* Animated Boxes with hover effect */
+/* Animated Boxes with hover effect */
+/* Animated Boxes with hover effect */
+.animated-box {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white background */
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    width: 240px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #f4d03f; /* Warm yellow for the text */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* Subtle shadow */
+}
+
+/* Hover Effects for Animated Boxes */
+.animated-box:hover {
+    transform: scale(1.1); /* Scale up the box on hover */
+    background-color: rgba(0, 71, 171, 0.8); /* Darker cobalt blue background on hover */
+    box-shadow: 0 10px 30px rgba(0, 71, 171, 0.6); /* Glow effect with the same darker cobalt blue */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+
+
+
+
+
+
+
+
+

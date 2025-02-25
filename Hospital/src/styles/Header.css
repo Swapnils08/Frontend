@@ -1,0 +1,102 @@
+/* .header {
+    background: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header nav {
+    margin-top: 10px;
+}
+
+.header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+} */
+
+.header {
+    background: #152A45; /* Slightly darker warm blue */
+    color: #ffffff; /* White text for contrast */
+    padding: 40px 80px; /* Balanced padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Header Title Styling (Hospital Name) */
+.header h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3.5em; /* Adjusted title size */
+    letter-spacing: 1.5px;
+    margin: 0;
+    color: #E0E6ED; /* Soft light gray for contrast */
+}
+
+/* Navigation Styling */
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.header nav a {
+    margin: 0 35px; /* Reduced spacing */
+    color: #C5D1E0; /* Light desaturated blue */
+    text-decoration: none;
+    font-size: 1.5em; /* Slightly reduced font size */
+    font-weight: bold;
+}
+
+/* Hover Effects for Links */
+.header nav a:hover {
+    color: #AAB9CC; /* Slightly lighter muted blue */
+    text-decoration: underline;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 60px;
+    }
+
+    .header h1 {
+        font-size: 3em; /* Adjusted for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .header nav {
+        margin-top: 15px;
+    }
+
+    .header nav a {
+        margin: 10px 25px;
+        font-size: 1.3em;
+    }
+}
+
+/* Responsive Design for Very Small Screens (Mobile) */
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 2.5em; /* Adjusted for very small screens */
+    }
+
+    .header nav a {
+        margin: 8px 20px;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+
