@@ -6,7 +6,7 @@ const About = () => {
     <div className="about-container">
       {/* Hero Section */}
       <header className="about-hero">
-        <h1>Welcome to Familycare Heaven Hospital</h1>
+        <h1>Welcome to Phoenix Healthcare Services</h1>
         <p>Where Compassion Meets Excellence in Healthcare</p>
       </header>
 
@@ -14,7 +14,7 @@ const About = () => {
       <section className="about-intro">
         <h2>Who We Are</h2>
         <p>
-          Familycare Heaven Hospital is a world-class medical institution dedicated to providing
+          Phoenix Healthcare Services is a world-class medical institution dedicated to providing
           high-quality, compassionate, and advanced healthcare services. Our commitment to
           excellence and patient-centered care ensures we meet the evolving healthcare needs of our
           community and beyond.
@@ -50,7 +50,7 @@ const About = () => {
 
       {/* Why Choose Us */}
       <section className="about-why">
-        <h2>Why Choose Familycare Heaven Hospital?</h2>
+        <h2>Why Choose Phoenix Healthcare Services?</h2>
         <div className="why-cards">
           <div className="why-card">
             <h3>🔬 Advanced Medical Technology</h3>
